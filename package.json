@@ -1,0 +1,12 @@
+{
+  "name": "guoba-joki-genshin",
+  "version": "1.0.0",
+  "description": "Landing page joki Genshin Impact Guoba Joki",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "watch": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
